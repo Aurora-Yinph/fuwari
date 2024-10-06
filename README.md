@@ -1,0 +1,2 @@
+# fuwari
+My blog.
