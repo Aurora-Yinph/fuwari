@@ -2,7 +2,7 @@
 
 基于 [Astro](https://astro.build) 开发的静态博客模板。
 
-[**🖥️在线预览（Vercel）**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🖥️在线预览（Netlify）**](https://yinph-blog.netlify.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**📦旧 Hexo 版本**](https://github.com/saicaca/hexo-theme-vivia)
 
 > README 版本：`2024-11-02`
