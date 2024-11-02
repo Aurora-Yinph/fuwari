@@ -11,7 +11,7 @@ A static blog template built with [Astro](https://astro.build).
 
 > README version: `2024-11-02`
 
-![Preview Image](https://pic.imgdb.cn/item/6725ca78d29ded1a8c696be2.png)
+![Preview Image](https://pic.imgdb.cn/item/6725cb1dd29ded1a8c6a082d.png)
 
 ## ✨ Features
 
