@@ -2,12 +2,12 @@
 
 [Astro](https://astro.build) で構築された静的ブログテンプレート
 
-[**🖥️ライブデモ (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🖥️ライブデモ (Vercel)**](https://yinph-blog.netlify.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**📦旧 Hexo バージョン**](https://github.com/saicaca/hexo-theme-vivia)
 
-> README バージョン：`2024-04-07` 
+> README バージョン：`2024-11-02` 
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+![Preview Image](https://pic.imgdb.cn/item/6725c96ad29ded1a8c688e52.png)
 
 ## ✨ 特徴
 
