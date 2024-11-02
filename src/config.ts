@@ -24,6 +24,10 @@ export const siteConfig: SiteConfig = {
       url: ''                // (Optional) URL link to the original artwork or artist's page
     }
   },
+  toc: {
+    enable: true,           // Display the table of contents on the right side of the post
+    depth: 2                // Maximum heading depth to show in the table, from 1 to 3
+  },
   favicon: [    // Leave this array empty to use the default favicon
     // {
     //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
@@ -39,8 +43,8 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
+      name: '项目',
+      url: 'https://github.com/Aurora-Yinph/fuwari',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -64,14 +68,14 @@ export const profileConfig: ProfileConfig = {
       url: 'https://store.steampowered.com',
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
-    {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/Aurora-Yinph',
+    },
+    {
+      name: '知乎',
+      icon: 'fa6-brands:github',
+      url: 'https://www.zhihu.com/people/yinph',
     },
   ],
 }
