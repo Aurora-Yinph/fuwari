@@ -2,12 +2,12 @@
 
 Un tema estático para blogs construido con [Astro](https://astro.build).
 
-[**🖥️ Demostración en Vivo (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🖥️ Demostración en Vivo (Netlify)**](https://yinph-blog.netlify.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**📦 Versión Antigua de Hexo**](https://github.com/saicaca/hexo-theme-vivia)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 
-> Versión del README: `2024-04-07`
+> Versión del README: `2024-11-02`
 
-![Imagen de Vista Previa](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+![Imagen de Vista Previa](https://pic.imgdb.cn/item/6725ca78d29ded1a8c696be2.png)
 
 ## ✨ Características
 
