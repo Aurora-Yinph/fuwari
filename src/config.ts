@@ -56,26 +56,11 @@ export const profileConfig: ProfileConfig = {
   bio: '⟦一个既平凡又独特的初三学生⟧',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
+      name: 'GitHub',
+      icon: 'fa6-brands:github',        // Visit https://icones.js.org/ for icon codes
                                         // You will need to install the corresponding icon set if it's not already included
                                         // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
-    {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
       url: 'https://github.com/Aurora-Yinph',
-    },
-    {
-      name: '知乎',
-      icon: 'fa6-brands:github',
-      url: 'https://www.zhihu.com/people/yinph',
     },
   ],
 }
