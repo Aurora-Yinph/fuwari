@@ -15,11 +15,11 @@ export const siteConfig: SiteConfig = {
     fixed: false,     // Hide the theme color picker for visitors
   },
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
     credit: {
-      enable: false,         // Display the credit text of the banner image
+      enable: true,         // Display the credit text of the banner image
       text: '',              // Credit text to be displayed
       url: ''                // (Optional) URL link to the original artwork or artist's page
     }
@@ -43,8 +43,8 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
     LinkPreset.About,
     {
-      name: '个人网站',
-      url: 'https://yinph.netlify.app/',     // Internal links should not include the base path, as it is automatically added
+      name: '博客项目',
+      url: 'https://github.com/Aurora-Yinph/fuwari',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -55,13 +55,13 @@ export const profileConfig: ProfileConfig = {
   name: 'Yinph',
   bio: '⟦一个既平凡又独特的初三学生⟧',
   links: [
-    {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',        // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://github.com/Aurora-Yinph',
-    },
+    //{
+    //  name: 'GitHub',
+    //  icon: 'fa6-brands:github',        // Visit https://icones.js.org/ for icon codes
+    //                                    // You will need to install the corresponding icon set if it's not already included
+    //                                    // `pnpm add @iconify-json/<icon-set-name>`
+    //  url: 'https://github.com/Aurora-Yinph',
+    //},
   ],
 }
 
