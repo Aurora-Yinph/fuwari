@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
   return rss({
     title: siteConfig.title,
     description: siteConfig.subtitle || 'No description',
-    site: context.site ?? 'https://yinph-blog.netlify.app/',
+    site: context.site ?? 'https://fuwari.vercel.app',
     items: blog.map(post => {
       return {
         title: post.data.title,

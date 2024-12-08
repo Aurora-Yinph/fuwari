@@ -9,7 +9,7 @@ enum I18nKey {
   recentPosts = 'recentPosts',
 
   comments = 'comments',
-  
+
   untitled = 'untitled',
   uncategorized = 'uncategorized',
   noTags = 'noTags',
