@@ -8,7 +8,7 @@ category: '技术Tech'
 draft: false 
 ---
 
-大家好，我是Yinph。
+大家好，我是零界。
 
 今天给大家带来一篇关于如何使用Astro快速搭建个人博客的文章。
 
@@ -100,7 +100,7 @@ npm run dev
 
 ## 四、开始部署
 
-### （1）使用Netlify
+### ①使用Netlify
 
 Netlify是一个静态网站托管平台，还是Astro官方部署合作伙伴，可以很方便、快捷地将你的代码部署到网上。
 
@@ -124,7 +124,7 @@ Netlify是一个静态网站托管平台，还是Astro官方部署合作伙伴�
 
 至此，我们的博客就搭建好了！
 
-### （2）使用Cloudflare
+### ②使用Cloudflare
 
 同样，我们也可以用Github登录Cloudflare，（但是我一开始不知道，用邮箱创建账号😂）然后点“Workers和Pages”。
 

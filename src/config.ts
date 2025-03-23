@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Yinph',
+  title: '零界ZeroEdge',
   subtitle: '欢迎来拜访我的博客！',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.About,
     {
       name: '博客项目',
-      url: 'https://github.com/Aurora-Yinph/fuwari',     // Internal links should not include the base path, as it is automatically added
+      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
       external: true,                               // Show an external link icon and will open in a new tab
     },
   ],
@@ -52,7 +52,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Yinph',
+  name: '零界ZeroEdge',
   bio: '『一个既平凡又独特的初三学生』',
   links: [
     //{

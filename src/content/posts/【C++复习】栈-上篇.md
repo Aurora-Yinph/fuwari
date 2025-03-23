@@ -2,15 +2,15 @@
 title: 【C++复习】栈-上篇
 published: 2024-08-20
 description: 在该博客系列中，我会带领大家复习栈的基本概念，包括它的定义、特性、基本操作，并探讨栈的相关应用。大家有兴趣可以看我的博客进行自学。
-image: 'https://pic.imgdb.cn/item/67033efbd29ded1a8cd04c36.png'
+image: 'https://pic1.imgdb.cn/item/67debcbb88c538a9b5c35892.jpg'
 tags: [C++复习, 栈, 数据结构]
 category: '技术Tech'
 draft: false 
 ---
 
-大家好，这里是不会写开场白的Yinph。
+大家好，我是不会写开场白的零界。
 
-我们直接进入正题，开始进行C++的复习——栈：
+我们直接进入正题，开始进行C++的复习（或学习）——栈：
 
 ## 一、什么是栈？
 
@@ -34,7 +34,7 @@ draft: false
 
 栈的常用操作有：入栈（push）、出栈（pop）、取栈顶元素（top）、判断栈是否为空（isEmpty）、清空栈（clear）获取栈内元素个数（size）。
 
-### （1）数组模拟栈
+### ①数组模拟栈
 
 由于计算机中没有栈这种存储结构，我们可以用顺序存储结构——数组来模拟栈。具体如下：
 
@@ -68,22 +68,27 @@ void push(int x)//入栈
     TOP++;	
     st[TOP] = x;	
 }
+
 void pop( ) //出栈
 {	
     TOP--;	
 }
+
 int top( ) // 获取栈顶元素	
 {	
     return st[TOP];	
 }
+
 bool isempty( ) //判断栈是否为空	
 {
     return TOP == 0;	
 }
+
 void clear( ) //清空
 {
     TOP = 0;	
 }
+
 int size( ) // 获取栈内元素个数
 {
     return TOP;	
@@ -93,20 +98,22 @@ int main()
 {
     for (int i = 1; i <= 5; i++)
     {
-      push(i); // 入栈
+        push(i); // 入栈
     }
+
     cout << "当前栈顶元素为：" << top() << endl;
     cout << "出栈顺序为：" << size() << endl;
+
     while (!isempty()) // 判断栈是否为空
     {
-      cout << top() << " ";
-      pop(); // 出栈
+        cout << top() << " ";
+        pop(); // 出栈
     }
     return 0;
 }
 ```
 
-### （2）使用标准模板库（STL）
+### ②使用标准模板库（STL）
 
 `标准模板库（STL）`，是一些常用数据结构（栈、队列等）和算法（sort、swap等）的模板的集合。有了STL，不必再写太多的标准数据结构和算法，并且性能也会更高。
 
@@ -138,18 +145,21 @@ int main()
 
 ```cpp
 #include <iostream>
-#include <stack> // 头文件
+#include <stack> // 今天的主角
 using namespace std;
 
 int main()
 {
     stack<int> s; // 定义一个栈
+
     for (int i = 1; i <= 5; i++)
     {
       s.push(i); // 入栈
     }
+
     cout << "栈顶元素为：" << s.top() << endl;
     cout << "栈内元素个数为：" << s.size() << endl;
+
     while (!s.empty()) // 判断栈是否为空
     {
       cout << s.top() << " "; // 输出栈顶元素
@@ -159,10 +169,10 @@ int main()
 }
 ```
 
-## 三、总结一下
+## 三、结语
 
-栈是一种先进后出的数据结构，它只能在一端进行插入和删除操作。在C++中，我们可以使用`数组`或`STL中的stack模板类`来模拟栈的操作。栈的常用操作包括入栈、出栈、取栈顶元素、判断栈是否为空、清空栈和获取栈内元素个数。
+部分内容来源于网络，在此声明。
 
-希望这篇文章能帮助你们更好地理解栈，如果你有任何问题，欢迎在评论区留言。
+希望这篇文章能帮助你们更好地理解栈这一概念。如果你有任何问题，欢迎在评论区留言。
 
 OK，以上就是今天要讲的内容。大家喜欢就点个赞吧，我会尽快更新！ヾ(•ω•`)o！
